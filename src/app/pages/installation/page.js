@@ -33,31 +33,31 @@ const Description = () => {
             <h3>INSTALLATION PROCESS: </h3>
             <ol className="flex flex-col gap-4 indent-6">
                 <li>1.	Open IAIS folder and select “LIS” or “Setup1” as shown in the figure below.
-                    <Image src={setup1} />
+                    <Image src={setup1} alt="setup1"/>
                 </li>
                 <li>2.	After selecting “LIS” or “Setup1”, follow the installation processes as shown in the figures below.
-                    <Image src={setup1a} />
-                    <Image src={setup2} />
-                    <Image src={setup3} />
+                    <Image src={setup1a} alt="setup1a"/>
+                    <Image src={setup2} alt="setup2"/>
+                    <Image src={setup3} alt="setup3"/>
                     <p>*Click yes if there's a pop-up message confirming your installation</p>
                 </li>
                 <li>3.	Wait until the installation is complete before closing as shown in the figures below.
-                    <Image src={setup4} />
+                    <Image src={setup4} alt="setup4"/>
                 </li>
             </ol>
             <h3>AFTER THE INSTALLATION PROCESS:</h3>
             <ol className="flex flex-col gap-4 indent-6">
                 <li>1.	Double click/right click the wampserver "a" then run as administrator or create shortcut "b" for easy access. As shown in the figure below.
-                    <Image src={clickWampp} />
+                    <Image src={clickWampp} alt="clickWampp"/>
                 </li>
                 <li>2.	If the wampserver is running and it turns green (c), left click it and choose phpmyadmin. Refer to the figure below. If the wampserver icon is not green, select Start All Services before clicking phpmyadmin.
-                    <Image src={startWampp} />
+                    <Image src={startWampp} alt="startWampp"/>
                 </li>
                 <li>3.  Type root in the username as the default then click Go. Refer to the figure below.
-                    <Image src={nameWampp} />
+                    <Image src={nameWampp} alt="nameWampp"/>
                 </li>
                 <li>4.	Click New to Create a New Database. Type “dbenrollment1” and click the Create button. Refer in the figure below.
-                    <Image src={createdb} />
+                    <Image src={createdb} alt="createdb"/>
                     <ol>
                         <li>(1)Click New</li>
                         <li>(2)Type the Database Name “dbenrollment1”</li>
@@ -68,27 +68,20 @@ const Description = () => {
                 </li>
                 <li>
                     5.	Select dbnrollment1 from the left corner. Click Import (g) on the tab menu, choose Browse (h) and locate “dbnrollment1” from the IAIS folder.  Refer to the figures below.
-                    <Image src={importdb} />
-                    <Image src={selectdb} />
+                    <Image src={importdb} alt="importdb"/>
+                    <Image src={selectdb} alt="selectdb"/>
                 </li>
                 <li>
-                    6.	Open the IAIS Icon
+                    6.	Open the LIS Icon
                     <ol>
                         <li>•	Double click the icon or</li>
                         <li>•	Click the icon and press enter key on the keyboard or</li>
                         <li>•	Right click the icon and select open</li>
                         <li>•	Refer to the icon below.</li>
                     </ol>
-                    <Image src={openLisIcon} />
+                    <Image src={openLisIcon} alt="openLisIcon"/>
                 </li>
             </ol>
-
-
-
-
-
-
-
             <div className="flex gap-96">
                 <div className="m-10">
                     <Previousbutton link='/pages/introduction' name='Introduction' />
