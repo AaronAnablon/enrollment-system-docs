@@ -15,7 +15,7 @@ import printButtonGrade from "../../../../public/printButtonGrade.png"
 const page = () => {
     return (
         <Layout>
-            Manage Student's Records
+            Manage Student&apos;s Records
 
             <ol>
                 <li>
