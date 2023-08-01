@@ -39,7 +39,7 @@ const Description = () => {
                     <Image src={setup1a} alt="setup1a"/>
                     <Image src={setup2} alt="setup2"/>
                     <Image src={setup3} alt="setup3"/>
-                    <p>*Click yes if there's a pop-up message confirming your installation</p>
+                    <p>*Click yes if there&apos;s a pop-up message confirming your installation</p>
                 </li>
                 <li>3.	Wait until the installation is complete before closing as shown in the figures below.
                     <Image src={setup4} alt="setup4"/>
@@ -47,7 +47,7 @@ const Description = () => {
             </ol>
             <h3>AFTER THE INSTALLATION PROCESS:</h3>
             <ol className="flex flex-col gap-4 indent-6">
-                <li>1.	Double click/right click the wampserver "a" then run as administrator or create shortcut "b" for easy access. As shown in the figure below.
+                <li>1.	Double click/right click the wampserver &quot;a&ldquo; then run as administrator or create shortcut &quot;b&ldquo; for easy access. As shown in the figure below.
                     <Image src={clickWampp} alt="clickWampp"/>
                 </li>
                 <li>2.	If the wampserver is running and it turns green (c), left click it and choose phpmyadmin. Refer to the figure below. If the wampserver icon is not green, select Start All Services before clicking phpmyadmin.
