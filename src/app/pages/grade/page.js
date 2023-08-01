@@ -61,11 +61,11 @@ const page = () => {
                 </li>
                 <li><div className="my-6">9. Click the print form 137. Follow 4, 5 and 6</div></li>
             </ol>
-            <div className="flex gap-96">
-                <div className="m-10">
+            <div className="flex my-14">
+                <div className="w-full flex justify-start">
                     <Previousbutton link='/pages/assign' name='Assign Student Section' />
                 </div>
-                <div className="m-10">
+                <div className="w-full flex justify-end">
                     <Nextbutton link='/pages/maintenance' name='Maintenance' />
                 </div>
             </div>

@@ -122,11 +122,11 @@ const page = () => {
                     </ol>
                 </li>
             </ol>
-            <div className="flex gap-96">
-                <div className="m-10">
+            <div className="flex my-14">
+                <div className="w-full flex justify-start">
                     <Previousbutton link='/pages/login' name='Log In Page' />
                 </div>
-                <div className="m-10">
+                <div className="w-full flex justify-end">
                     <Nextbutton link='/pages/grade' name='Manage Student Record' />
                 </div>
             </div>
