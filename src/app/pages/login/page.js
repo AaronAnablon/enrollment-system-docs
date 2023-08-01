@@ -115,11 +115,11 @@ const page = () => {
                     </li>
                 </ol>
             </ol>
-            <div className="flex gap-96">
-                <div className="m-10">
+            <div className="flex my-14">
+                <div className="w-full flex justify-start">
                     <Previousbutton link='/pages/scope' name='Scope and Delimitation' />
                 </div>
-                <div className="m-10">
+                <div className="w-full flex justify-end">
                     <Nextbutton link='/pages/new' name='Adding new record' />
                 </div>
             </div>

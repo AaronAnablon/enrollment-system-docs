@@ -82,11 +82,11 @@ const Description = () => {
                     <Image src={openLisIcon} alt="openLisIcon"/>
                 </li>
             </ol>
-            <div className="flex gap-96">
-                <div className="m-10">
+            <div className="flex my-14">
+                <div className="w-full flex justify-start">
                     <Previousbutton link='/pages/introduction' name='Introduction' />
                 </div>
-                <div className="m-10">
+                <div className="w-full flex justify-end">
                     <Nextbutton link='/pages/scope' name='Scope and Delimitaion' />
                 </div>
             </div>

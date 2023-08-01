@@ -21,11 +21,11 @@ const page = () => {
                     </Link>
                 </div>
             </div>
-            <div className="flex gap-96">
-                <div className="m-10">
+            <div className="flex my-14">
+                <div className="w-full flex justify-start">
                     <Previousbutton link='/' name='Back' />
                 </div>
-                <div className="m-10">
+                <div className="w-full flex justify-end">
                     <Nextbutton link='/pages/installation' name='Installation' />
                 </div>
             </div>
