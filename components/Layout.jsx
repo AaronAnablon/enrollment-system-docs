@@ -27,34 +27,34 @@ const Layout = ({ children }) => {
                     <div className="flex justify-end m-10">
                         <Nextbutton link='/pages/introduction' name='Introduction' />
                     </div>
-                    <div className="flex flex-col items-center">
+                    <div className="flex flex-wrap justify-center items-center">
                         <Image
                             src={remarks.pic1}
                             alt="pic1"
                             width={100} 
                             height={100} 
-                            className="rounded-full border-2 border-white"
+                            className=" border-2 border-white"
                         />
                         <Image
                             src={remarks.pic2}
                             alt="pic2"
                             width={100} 
                             height={100} 
-                            className="rounded-full border-2 border-white"
+                            className=" border-2 border-white"
                         />
                         <Image
                             src={remarks.pic3}
                             alt="pic3"
                             width={100} 
                             height={100} 
-                            className="rounded-full border-2 border-white"
+                            className=" border-2 border-white"
                         />
                         <Image
                             src={remarks.pic4}
                             alt="pic4"
                             width={100} 
                             height={100} 
-                            className="rounded-full border-2 border-white"
+                            className=" border-2 border-white"
                         />
                     </div>
                 </div>
